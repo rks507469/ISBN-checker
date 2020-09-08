@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#search-btn {
+    background:#0099ff;
+    color:white;
+    font: 'trebuchet ms', trebuchet;
+    padding:10px 20px;
+    border-radius:0 5px 5px 0;
+    -moz-border-radius:0 5px 5px 0;
+    -webkit-border-radius:0 5px 5px 0;
+    -o-border-radius:0 5px 5px 0;
+    border:0 none;
+    font-weight:bold;
+    }
+    
+#search-box {
+    background: #eee;
+    padding:10px;
+    border-radius:5px 0 0 5px;
+    -moz-border-radius:5px 0 0 5px;
+    -webkit-border-radius:5px 0 0 5px;
+    -o-border-radius:5px 0 0 5px;
+    border:0 none;
+    width:300px;
+}
+.mb {
+    padding-bottom: 20px;
+}
+.output {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+*:focus {
+    outline: 0 !important;
+}
+.output p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.color-green {
+    color: #00a77d;
+}
+.color-red {
+    color: #f83918;
+}
